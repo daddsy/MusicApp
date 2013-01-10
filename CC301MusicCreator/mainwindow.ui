@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1045</width>
+    <height>787</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QScrollArea" name="scrollArea">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>40</y>
+      <width>981</width>
+      <height>521</height>
+     </rect>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>979</width>
+       <height>519</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>10</y>
+      <width>41</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Play</string>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="lcdNumber">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>10</y>
+      <width>81</width>
+      <height>23</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="lcdNumber_2">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>10</y>
+      <width>111</width>
+      <height>23</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>10</y>
+      <width>41</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Stop</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>10</y>
+      <width>41</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pause</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>10</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Bar:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>10</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Time:</string>
+    </property>
+   </widget>
+   <widget class="QListView" name="listView">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>580</y>
+      <width>481</width>
+      <height>141</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QListView" name="listView_2">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>580</y>
+      <width>481</width>
+      <height>141</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>10</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Time Signature:</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>10</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_2">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>10</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>10</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Tempo:</string>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="doubleSpinBox">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>10</y>
+      <width>62</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>10</y>
+      <width>21</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>BPM</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1045</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMusic_Creator_V0_1b">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionNew"/>
+    <addaction name="separator"/>
+    <addaction name="actionOpen"/>
+    <addaction name="actionSave"/>
+    <addaction name="separator"/>
+    <addaction name="actionExport_as_wav"/>
+    <addaction name="separator"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <addaction name="actionCopy"/>
+    <addaction name="actionCut"/>
+    <addaction name="actionPaste"/>
+   </widget>
+   <widget class="QMenu" name="menuView">
+    <property name="title">
+     <string>View</string>
+    </property>
+    <addaction name="actionSampler_Window"/>
+    <addaction name="actionSynthesiser_Window"/>
+    <addaction name="actionMixer_Window"/>
+    <addaction name="separator"/>
+    <addaction name="actionZoom_2"/>
+    <addaction name="separator"/>
+    <addaction name="actionProduction_Properties"/>
+   </widget>
+   <widget class="QMenu" name="menuSynthesiser">
+    <property name="title">
+     <string>Synthesiser</string>
+    </property>
+    <addaction name="actionOpen_synthesiser"/>
+    <addaction name="actionChange_synthesiser_settings"/>
+    <addaction name="separator"/>
+    <addaction name="actionEdit_Synthesiser_Block"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Preferences</string>
+    </property>
+    <addaction name="actionAudio_Settings"/>
+    <addaction name="actionMidi_Settings"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp_2">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionAbout"/>
+   </widget>
+   <widget class="QMenu" name="menuNew_Track">
+    <property name="title">
+     <string>New Track...</string>
+    </property>
+    <addaction name="actionSampler"/>
+    <addaction name="actionSynthesiser"/>
+    <addaction name="actionAudio"/>
+   </widget>
+   <widget class="QMenu" name="menuSampler">
+    <property name="title">
+     <string>Sampler</string>
+    </property>
+    <addaction name="actionOpen_sampler"/>
+    <addaction name="separator"/>
+    <addaction name="actionEdit_Sampler_Block"/>
+   </widget>
+   <addaction name="menuMusic_Creator_V0_1b"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuView"/>
+   <addaction name="menuNew_Track"/>
+   <addaction name="menuSampler"/>
+   <addaction name="menuSynthesiser"/>
+   <addaction name="menuHelp"/>
+   <addaction name="menuHelp_2"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <action name="actionNew">
+   <property name="text">
+    <string>New</string>
+   </property>
+  </action>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </action>
+  <action name="actionExport_as_wav">
+   <property name="text">
+    <string>Export as .wav</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionCopy">
+   <property name="text">
+    <string>Copy</string>
+   </property>
+  </action>
+  <action name="actionPaste">
+   <property name="text">
+    <string>Paste</string>
+   </property>
+  </action>
+  <action name="actionCut">
+   <property name="text">
+    <string>Cut</string>
+   </property>
+  </action>
+  <action name="actionZoom">
+   <property name="text">
+    <string>Zoom</string>
+   </property>
+  </action>
+  <action name="actionSampler_Window">
+   <property name="text">
+    <string>Sampler Window</string>
+   </property>
+  </action>
+  <action name="actionSynthesiser_Window">
+   <property name="text">
+    <string>Synthesiser Window</string>
+   </property>
+  </action>
+  <action name="actionMixer_Window">
+   <property name="text">
+    <string>Mixer Window</string>
+   </property>
+  </action>
+  <action name="actionZoom_2">
+   <property name="text">
+    <string>Zoom</string>
+   </property>
+  </action>
+  <action name="actionProduction_Properties">
+   <property name="text">
+    <string>Production Properties</string>
+   </property>
+  </action>
+  <action name="actionOpen_sampler">
+   <property name="text">
+    <string>New sampler block</string>
+   </property>
+  </action>
+  <action name="actionSample_settings">
+   <property name="text">
+    <string>Sample settings</string>
+   </property>
+  </action>
+  <action name="actionOpen_synthesiser">
+   <property name="text">
+    <string>New synthesiser block</string>
+   </property>
+  </action>
+  <action name="actionChange_synthesiser_settings">
+   <property name="text">
+    <string>Change synthesiser settings</string>
+   </property>
+  </action>
+  <action name="actionAudio_Settings">
+   <property name="text">
+    <string>Audio Settings</string>
+   </property>
+  </action>
+  <action name="actionMidi_Settings">
+   <property name="text">
+    <string>Midi Settings</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionSampler">
+   <property name="text">
+    <string>Sampler</string>
+   </property>
+  </action>
+  <action name="actionSynthesiser">
+   <property name="text">
+    <string>Synthesiser</string>
+   </property>
+  </action>
+  <action name="actionAudio">
+   <property name="text">
+    <string>Audio</string>
+   </property>
+  </action>
+  <action name="actionEdit_Sampler_Block">
+   <property name="text">
+    <string>Edit Sampler Block</string>
+   </property>
+  </action>
+  <action name="actionEdit_Synthesiser_Block">
+   <property name="text">
+    <string>Edit Synthesiser Block</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

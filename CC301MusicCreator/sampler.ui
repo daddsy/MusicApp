@@ -1,0 +1,3035 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Sampler</class>
+ <widget class="QMainWindow" name="Sampler">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>599</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QDial" name="dSample1Beat11">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>45</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btLoad8">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>260</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Load Sample</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="tbSample13">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>410</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="tbSample8">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>260</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btLoad13">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>410</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Load Sample</string>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample1Beat12">
+    <property name="geometry">
+     <rect>
+      <x>615</x>
+      <y>45</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="tbSample5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="tbSample11">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>350</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btLoad1">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>50</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Load Sample</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btLoad12">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>380</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Load Sample</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btLoad15">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>470</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Load Sample</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btLoad3">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>110</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Load Sample</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btLoad2">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>80</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Load Sample</string>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample1Beat3">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>45</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btLoad5">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>170</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Load Sample</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btLoad16">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>500</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Load Sample</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btLoad7">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>230</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Load Sample</string>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample1Beat6">
+    <property name="geometry">
+     <rect>
+      <x>405</x>
+      <y>45</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="tbSample12">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>380</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btLoad6">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>200</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Load Sample</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbTitle">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Sample Title:</string>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample1Beat13">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>45</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="tbSample4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>140</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample1Beat10">
+    <property name="geometry">
+     <rect>
+      <x>545</x>
+      <y>45</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btLoad14">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>440</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Load Sample</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="tbSample1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample1Beat2">
+    <property name="geometry">
+     <rect>
+      <x>265</x>
+      <y>45</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample1Beat9">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>45</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="tbSample3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btLoad4">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>140</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Load Sample</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="tbSample6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>200</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample1Beat7">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>45</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="tbSample10">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>320</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample1Beat4">
+    <property name="geometry">
+     <rect>
+      <x>335</x>
+      <y>45</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="tbSample9">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>290</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample1Beat1">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>45</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="tbSample7">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>230</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="tbSample15">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>470</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample1Beat15">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>45</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="tbTitle">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>10</y>
+      <width>126</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample1Beat8">
+    <property name="geometry">
+     <rect>
+      <x>475</x>
+      <y>45</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="tbSample16">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>500</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample1Beat5">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>45</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btLoad10">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>320</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Load Sample</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="tbSample2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="tbSample14">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>440</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btLoad9">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>290</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Load Sample</string>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample1Beat14">
+    <property name="geometry">
+     <rect>
+      <x>685</x>
+      <y>45</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btLoad11">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>350</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Load Sample</string>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample1Beat16">
+    <property name="geometry">
+     <rect>
+      <x>755</x>
+      <y>45</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample2Beat10">
+    <property name="geometry">
+     <rect>
+      <x>545</x>
+      <y>75</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample2Beat2">
+    <property name="geometry">
+     <rect>
+      <x>265</x>
+      <y>75</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample2Beat11">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>75</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample2Beat12">
+    <property name="geometry">
+     <rect>
+      <x>615</x>
+      <y>75</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample2Beat3">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>75</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample2Beat8">
+    <property name="geometry">
+     <rect>
+      <x>475</x>
+      <y>75</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample2Beat6">
+    <property name="geometry">
+     <rect>
+      <x>405</x>
+      <y>75</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample2Beat1">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>75</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample2Beat9">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>75</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample2Beat14">
+    <property name="geometry">
+     <rect>
+      <x>685</x>
+      <y>75</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample2Beat7">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>75</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample2Beat5">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>75</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample2Beat13">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>75</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample2Beat15">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>75</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample2Beat4">
+    <property name="geometry">
+     <rect>
+      <x>335</x>
+      <y>75</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample2Beat16">
+    <property name="geometry">
+     <rect>
+      <x>755</x>
+      <y>75</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample3Beat10">
+    <property name="geometry">
+     <rect>
+      <x>545</x>
+      <y>105</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample3Beat2">
+    <property name="geometry">
+     <rect>
+      <x>265</x>
+      <y>105</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample3Beat11">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>105</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample3Beat12">
+    <property name="geometry">
+     <rect>
+      <x>615</x>
+      <y>105</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample3Beat3">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>105</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample3Beat8">
+    <property name="geometry">
+     <rect>
+      <x>475</x>
+      <y>105</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample3Beat6">
+    <property name="geometry">
+     <rect>
+      <x>405</x>
+      <y>105</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample3Beat1">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>105</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample3Beat9">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>105</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample3Beat14">
+    <property name="geometry">
+     <rect>
+      <x>685</x>
+      <y>105</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample3Beat7">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>105</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample3Beat5">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>105</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample3Beat13">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>105</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample3Beat15">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>105</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample3Beat4">
+    <property name="geometry">
+     <rect>
+      <x>335</x>
+      <y>105</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample3Beat16">
+    <property name="geometry">
+     <rect>
+      <x>755</x>
+      <y>105</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample4Beat10">
+    <property name="geometry">
+     <rect>
+      <x>545</x>
+      <y>135</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample4Beat2">
+    <property name="geometry">
+     <rect>
+      <x>265</x>
+      <y>135</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample4Beat11">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>135</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample4Beat12">
+    <property name="geometry">
+     <rect>
+      <x>615</x>
+      <y>135</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample4Beat3">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>135</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample4Beat8">
+    <property name="geometry">
+     <rect>
+      <x>475</x>
+      <y>135</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample4Beat6">
+    <property name="geometry">
+     <rect>
+      <x>405</x>
+      <y>135</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample4Beat1">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>135</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample4Beat9">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>135</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample4Beat14">
+    <property name="geometry">
+     <rect>
+      <x>685</x>
+      <y>135</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample4Beat7">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>135</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample4Beat5">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>135</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample4Beat13">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>135</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample4Beat15">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>135</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample4Beat4">
+    <property name="geometry">
+     <rect>
+      <x>335</x>
+      <y>135</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample4Beat16">
+    <property name="geometry">
+     <rect>
+      <x>755</x>
+      <y>135</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample5Beat10">
+    <property name="geometry">
+     <rect>
+      <x>545</x>
+      <y>165</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample5Beat2">
+    <property name="geometry">
+     <rect>
+      <x>265</x>
+      <y>165</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample5Beat11">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>165</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample5Beat12">
+    <property name="geometry">
+     <rect>
+      <x>615</x>
+      <y>165</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample5Beat3">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>165</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample5Beat8">
+    <property name="geometry">
+     <rect>
+      <x>475</x>
+      <y>165</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample5Beat6">
+    <property name="geometry">
+     <rect>
+      <x>405</x>
+      <y>165</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample5Beat1">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>165</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample5Beat9">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>165</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample5Beat14">
+    <property name="geometry">
+     <rect>
+      <x>685</x>
+      <y>165</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample5Beat7">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>165</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample5Beat5">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>165</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample5Beat13">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>165</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample5Beat15">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>165</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample5Beat4">
+    <property name="geometry">
+     <rect>
+      <x>335</x>
+      <y>165</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample5Beat16">
+    <property name="geometry">
+     <rect>
+      <x>755</x>
+      <y>165</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample6Beat10">
+    <property name="geometry">
+     <rect>
+      <x>545</x>
+      <y>195</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample6Beat2">
+    <property name="geometry">
+     <rect>
+      <x>265</x>
+      <y>195</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample6Beat11">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>195</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample6Beat12">
+    <property name="geometry">
+     <rect>
+      <x>615</x>
+      <y>195</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample6Beat3">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>195</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample6Beat8">
+    <property name="geometry">
+     <rect>
+      <x>475</x>
+      <y>195</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample6Beat6">
+    <property name="geometry">
+     <rect>
+      <x>405</x>
+      <y>195</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample6Beat1">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>195</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample6Beat9">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>195</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample6Beat14">
+    <property name="geometry">
+     <rect>
+      <x>685</x>
+      <y>195</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample6Beat7">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>195</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample6Beat5">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>195</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample6Beat13">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>195</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample6Beat15">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>195</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample6Beat4">
+    <property name="geometry">
+     <rect>
+      <x>335</x>
+      <y>195</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample6Beat16">
+    <property name="geometry">
+     <rect>
+      <x>755</x>
+      <y>195</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample7Beat10">
+    <property name="geometry">
+     <rect>
+      <x>545</x>
+      <y>225</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample7Beat2">
+    <property name="geometry">
+     <rect>
+      <x>265</x>
+      <y>225</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample7Beat11">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>225</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample7Beat12">
+    <property name="geometry">
+     <rect>
+      <x>615</x>
+      <y>225</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample7Beat3">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>225</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample7Beat8">
+    <property name="geometry">
+     <rect>
+      <x>475</x>
+      <y>225</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample7Beat6">
+    <property name="geometry">
+     <rect>
+      <x>405</x>
+      <y>225</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample7Beat1">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>225</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample7Beat9">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>225</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample7Beat14">
+    <property name="geometry">
+     <rect>
+      <x>685</x>
+      <y>225</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample7Beat7">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>225</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample7Beat5">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>225</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample7Beat13">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>225</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample7Beat15">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>225</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample7Beat4">
+    <property name="geometry">
+     <rect>
+      <x>335</x>
+      <y>225</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample7Beat16">
+    <property name="geometry">
+     <rect>
+      <x>755</x>
+      <y>225</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample8Beat10">
+    <property name="geometry">
+     <rect>
+      <x>545</x>
+      <y>255</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample8Beat2">
+    <property name="geometry">
+     <rect>
+      <x>265</x>
+      <y>255</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample8Beat11">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>255</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample8Beat12">
+    <property name="geometry">
+     <rect>
+      <x>615</x>
+      <y>255</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample8Beat3">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>255</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample8Beat8">
+    <property name="geometry">
+     <rect>
+      <x>475</x>
+      <y>255</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample8Beat6">
+    <property name="geometry">
+     <rect>
+      <x>405</x>
+      <y>255</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample8Beat1">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>255</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample8Beat9">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>255</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample8Beat14">
+    <property name="geometry">
+     <rect>
+      <x>685</x>
+      <y>255</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample8Beat7">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>255</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample8Beat5">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>255</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample8Beat13">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>255</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample8Beat15">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>255</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample8Beat4">
+    <property name="geometry">
+     <rect>
+      <x>335</x>
+      <y>255</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample8Beat16">
+    <property name="geometry">
+     <rect>
+      <x>755</x>
+      <y>255</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample9Beat10">
+    <property name="geometry">
+     <rect>
+      <x>545</x>
+      <y>285</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample9Beat2">
+    <property name="geometry">
+     <rect>
+      <x>265</x>
+      <y>285</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample9Beat11">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>285</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample9Beat12">
+    <property name="geometry">
+     <rect>
+      <x>615</x>
+      <y>285</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample9Beat3">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>285</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample9Beat8">
+    <property name="geometry">
+     <rect>
+      <x>475</x>
+      <y>285</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample9Beat6">
+    <property name="geometry">
+     <rect>
+      <x>405</x>
+      <y>285</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample9Beat1">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>285</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample9Beat9">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>285</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample9Beat14">
+    <property name="geometry">
+     <rect>
+      <x>685</x>
+      <y>285</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample9Beat7">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>285</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample9Beat5">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>285</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample9Beat13">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>285</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample9Beat15">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>285</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample9Beat4">
+    <property name="geometry">
+     <rect>
+      <x>335</x>
+      <y>285</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample9Beat16">
+    <property name="geometry">
+     <rect>
+      <x>755</x>
+      <y>285</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample10Beat10">
+    <property name="geometry">
+     <rect>
+      <x>545</x>
+      <y>315</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample10Beat2">
+    <property name="geometry">
+     <rect>
+      <x>265</x>
+      <y>315</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample10Beat11">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>315</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample10Beat12">
+    <property name="geometry">
+     <rect>
+      <x>615</x>
+      <y>315</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample10Beat3">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>315</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample10Beat8">
+    <property name="geometry">
+     <rect>
+      <x>475</x>
+      <y>315</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample10Beat6">
+    <property name="geometry">
+     <rect>
+      <x>405</x>
+      <y>315</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample10Beat1">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>315</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample10Beat9">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>315</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample10Beat14">
+    <property name="geometry">
+     <rect>
+      <x>685</x>
+      <y>315</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample10Beat7">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>315</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample10Beat5">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>315</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample10Beat13">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>315</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample10Beat15">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>315</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample10Beat4">
+    <property name="geometry">
+     <rect>
+      <x>335</x>
+      <y>315</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample10Beat16">
+    <property name="geometry">
+     <rect>
+      <x>755</x>
+      <y>315</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample11Beat10">
+    <property name="geometry">
+     <rect>
+      <x>545</x>
+      <y>345</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample11Beat2">
+    <property name="geometry">
+     <rect>
+      <x>265</x>
+      <y>345</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample11Beat11">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>345</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample11Beat12">
+    <property name="geometry">
+     <rect>
+      <x>615</x>
+      <y>345</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample11Beat3">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>345</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample11Beat8">
+    <property name="geometry">
+     <rect>
+      <x>475</x>
+      <y>345</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample11Beat6">
+    <property name="geometry">
+     <rect>
+      <x>405</x>
+      <y>345</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample11Beat1">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>345</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample11Beat9">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>345</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample11Beat14">
+    <property name="geometry">
+     <rect>
+      <x>685</x>
+      <y>345</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample11Beat7">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>345</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample11Beat5">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>345</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample11Beat13">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>345</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample11Beat15">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>345</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample11Beat4">
+    <property name="geometry">
+     <rect>
+      <x>335</x>
+      <y>345</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample11Beat16">
+    <property name="geometry">
+     <rect>
+      <x>755</x>
+      <y>345</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample12Beat10">
+    <property name="geometry">
+     <rect>
+      <x>545</x>
+      <y>375</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample12Beat2">
+    <property name="geometry">
+     <rect>
+      <x>265</x>
+      <y>375</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample12Beat11">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>375</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample12Beat12">
+    <property name="geometry">
+     <rect>
+      <x>615</x>
+      <y>375</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample12Beat3">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>375</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample12Beat8">
+    <property name="geometry">
+     <rect>
+      <x>475</x>
+      <y>375</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample12Beat6">
+    <property name="geometry">
+     <rect>
+      <x>405</x>
+      <y>375</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample12Beat1">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>375</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample12Beat9">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>375</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample12Beat14">
+    <property name="geometry">
+     <rect>
+      <x>685</x>
+      <y>375</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample12Beat7">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>375</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample12Beat5">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>375</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample12Beat13">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>375</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample12Beat15">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>375</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample12Beat4">
+    <property name="geometry">
+     <rect>
+      <x>335</x>
+      <y>375</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample12Beat16">
+    <property name="geometry">
+     <rect>
+      <x>755</x>
+      <y>375</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample13Beat10">
+    <property name="geometry">
+     <rect>
+      <x>545</x>
+      <y>405</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample13Beat2">
+    <property name="geometry">
+     <rect>
+      <x>265</x>
+      <y>405</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample13Beat11">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>405</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample13Beat12">
+    <property name="geometry">
+     <rect>
+      <x>615</x>
+      <y>405</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample13Beat3">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>405</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample13Beat8">
+    <property name="geometry">
+     <rect>
+      <x>475</x>
+      <y>405</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample13Beat6">
+    <property name="geometry">
+     <rect>
+      <x>405</x>
+      <y>405</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample13Beat1">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>405</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample13Beat9">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>405</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample13Beat14">
+    <property name="geometry">
+     <rect>
+      <x>685</x>
+      <y>405</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample13Beat7">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>405</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample13Beat5">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>405</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample13Beat13">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>405</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample13Beat15">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>405</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample13Beat4">
+    <property name="geometry">
+     <rect>
+      <x>335</x>
+      <y>405</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample13Beat16">
+    <property name="geometry">
+     <rect>
+      <x>755</x>
+      <y>405</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample14Beat10">
+    <property name="geometry">
+     <rect>
+      <x>545</x>
+      <y>435</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample14Beat2">
+    <property name="geometry">
+     <rect>
+      <x>265</x>
+      <y>435</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample14Beat11">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>435</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample14Beat12">
+    <property name="geometry">
+     <rect>
+      <x>615</x>
+      <y>435</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample14Beat3">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>435</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample14Beat8">
+    <property name="geometry">
+     <rect>
+      <x>475</x>
+      <y>435</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample14Beat6">
+    <property name="geometry">
+     <rect>
+      <x>405</x>
+      <y>435</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample14Beat1">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>435</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample14Beat9">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>435</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample14Beat14">
+    <property name="geometry">
+     <rect>
+      <x>685</x>
+      <y>435</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample14Beat7">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>435</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample14Beat5">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>435</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample14Beat13">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>435</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample14Beat15">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>435</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample14Beat4">
+    <property name="geometry">
+     <rect>
+      <x>335</x>
+      <y>435</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample14Beat16">
+    <property name="geometry">
+     <rect>
+      <x>755</x>
+      <y>435</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample15Beat10">
+    <property name="geometry">
+     <rect>
+      <x>545</x>
+      <y>465</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample15Beat2">
+    <property name="geometry">
+     <rect>
+      <x>265</x>
+      <y>465</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample15Beat11">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>465</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample15Beat12">
+    <property name="geometry">
+     <rect>
+      <x>615</x>
+      <y>465</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample15Beat3">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>465</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample15Beat8">
+    <property name="geometry">
+     <rect>
+      <x>475</x>
+      <y>465</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample15Beat6">
+    <property name="geometry">
+     <rect>
+      <x>405</x>
+      <y>465</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample15Beat1">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>465</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample15Beat9">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>465</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample15Beat14">
+    <property name="geometry">
+     <rect>
+      <x>685</x>
+      <y>465</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample15Beat7">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>465</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample15Beat5">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>465</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample15Beat13">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>465</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample15Beat15">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>465</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample15Beat4">
+    <property name="geometry">
+     <rect>
+      <x>335</x>
+      <y>465</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample15Beat16">
+    <property name="geometry">
+     <rect>
+      <x>755</x>
+      <y>465</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample16Beat10">
+    <property name="geometry">
+     <rect>
+      <x>545</x>
+      <y>495</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample16Beat2">
+    <property name="geometry">
+     <rect>
+      <x>265</x>
+      <y>495</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample16Beat11">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>495</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample16Beat12">
+    <property name="geometry">
+     <rect>
+      <x>615</x>
+      <y>495</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample16Beat3">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>495</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample16Beat8">
+    <property name="geometry">
+     <rect>
+      <x>475</x>
+      <y>495</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample16Beat6">
+    <property name="geometry">
+     <rect>
+      <x>405</x>
+      <y>495</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample16Beat1">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>495</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample16Beat9">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>495</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample16Beat14">
+    <property name="geometry">
+     <rect>
+      <x>685</x>
+      <y>495</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample16Beat7">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>495</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample16Beat5">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>495</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample16Beat13">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>495</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample16Beat15">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>495</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample16Beat4">
+    <property name="geometry">
+     <rect>
+      <x>335</x>
+      <y>495</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dSample16Beat16">
+    <property name="geometry">
+     <rect>
+      <x>755</x>
+      <y>495</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="pbPosition">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>10</y>
+      <width>556</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>0</number>
+    </property>
+    <property name="maximum">
+     <number>16</number>
+    </property>
+    <property name="value">
+     <number>0</number>
+    </property>
+    <property name="textVisible">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btPlay">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>530</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Play loop</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+ <designerdata>
+  <property name="gridDeltaX">
+   <number>5</number>
+  </property>
+  <property name="gridDeltaY">
+   <number>5</number>
+  </property>
+  <property name="gridSnapX">
+   <bool>true</bool>
+  </property>
+  <property name="gridSnapY">
+   <bool>true</bool>
+  </property>
+  <property name="gridVisible">
+   <bool>true</bool>
+  </property>
+ </designerdata>
+</ui>

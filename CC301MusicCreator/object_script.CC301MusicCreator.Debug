@@ -1,0 +1,15 @@
+INPUT(
+./debug\main.o
+./debug\mainwindow.o
+./debug\sampler.o
+./debug\synthesiser.o
+./debug\synth.o
+./debug\sample.o
+./debug\audioplayback.o
+./debug\editselect.o
+./debug\moc_mainwindow.o
+./debug\moc_sampler.o
+./debug\moc_synthesiser.o
+./debug\moc_audioplayback.o
+./debug\moc_editselect.o
+);

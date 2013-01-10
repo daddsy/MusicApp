@@ -1,0 +1,15 @@
+INPUT(
+./release\main.o
+./release\mainwindow.o
+./release\sampler.o
+./release\synthesiser.o
+./release\synth.o
+./release\sample.o
+./release\audioplayback.o
+./release\editselect.o
+./release\moc_mainwindow.o
+./release\moc_sampler.o
+./release\moc_synthesiser.o
+./release\moc_audioplayback.o
+./release\moc_editselect.o
+);

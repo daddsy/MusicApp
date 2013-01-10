@@ -1,0 +1,308 @@
+#ifndef SAMPLER_H
+#define SAMPLER_H
+
+#include <QMainWindow>
+#include "sample.h"
+#include <QAudioEnginePlugin>
+#include <QAudioOutput>
+#include <QAudioFormat>
+#include <QMessageBox>
+#include <QDebug>
+#include <QTimer>
+#include <audioplayback.h>
+#include <QPalette>
+
+
+namespace Ui {
+    class Sampler;
+}
+
+class Sampler : public QMainWindow {
+    Q_OBJECT
+public:
+    Sampler(QWidget *parent = 0);
+    ~Sampler();
+    sample s;
+
+
+protected:
+    void changeEvent(QEvent *e);
+
+signals:
+   void saved();
+
+private:
+    Ui::Sampler *ui;
+    int position;
+    int playing;
+    int positionb;
+    void setPosition(int row, int beat, int attribute);
+    void finishedPlaying(QAudio::State state);
+
+    audioPlayback *audio;
+
+private slots:
+    void onPosChange();
+    void on_btPlay_clicked();
+    void on_dSample12Beat15_sliderPressed();
+    void on_dSample16Beat16_sliderReleased();
+    void on_dSample16Beat15_sliderReleased();
+    void on_dSample16Beat14_sliderReleased();
+    void on_dSample16Beat13_sliderReleased();
+    void on_dSample16Beat12_sliderReleased();
+    void on_dSample16Beat11_sliderReleased();
+    void on_dSample16Beat10_sliderReleased();
+    void on_dSample16Beat9_sliderReleased();
+    void on_dSample16Beat8_sliderReleased();
+    void on_dSample16Beat7_sliderReleased();
+    void on_dSample16Beat6_sliderReleased();
+    void on_dSample16Beat5_sliderReleased();
+    void on_dSample16Beat4_sliderReleased();
+    void on_dSample16Beat3_sliderReleased();
+    void on_dSample16Beat2_sliderReleased();
+    void on_dSample16Beat1_sliderReleased();
+    void on_dSample15Beat16_sliderReleased();
+    void on_dSample15Beat15_sliderReleased();
+    void on_dSample15Beat14_sliderReleased();
+    void on_dSample15Beat13_sliderReleased();
+    void on_dSample15Beat12_sliderReleased();
+    void on_dSample15Beat11_sliderReleased();
+    void on_dSample15Beat10_sliderReleased();
+    void on_dSample15Beat9_sliderReleased();
+    void on_dSample15Beat8_sliderReleased();
+    void on_dSample15Beat7_sliderReleased();
+    void on_dSample15Beat6_sliderReleased();
+    void on_dSample15Beat5_sliderReleased();
+    void on_dSample15Beat4_sliderReleased();
+    void on_dSample15Beat3_sliderReleased();
+    void on_dSample15Beat2_sliderReleased();
+    void on_dSample15Beat1_sliderReleased();
+    void on_dSample14Beat16_sliderReleased();
+    void on_dSample14Beat15_sliderReleased();
+    void on_dSample14Beat14_sliderReleased();
+    void on_dSample14Beat13_sliderReleased();
+    void on_dSample14Beat12_sliderReleased();
+    void on_dSample14Beat11_sliderReleased();
+    void on_dSample14Beat10_sliderReleased();
+    void on_dSample14Beat9_sliderReleased();
+    void on_dSample14Beat8_sliderReleased();
+    void on_dSample14Beat7_sliderReleased();
+    void on_dSample14Beat6_sliderReleased();
+    void on_dSample14Beat5_sliderReleased();
+    void on_dSample14Beat4_sliderReleased();
+    void on_dSample14Beat3_sliderReleased();
+    void on_dSample14Beat2_sliderReleased();
+    void on_dSample14Beat1_sliderReleased();
+    void on_dSample13Beat16_sliderReleased();
+    void on_dSample13Beat15_sliderReleased();
+    void on_dSample13Beat14_sliderReleased();
+    void on_dSample13Beat13_sliderReleased();
+    void on_dSample13Beat12_sliderReleased();
+    void on_dSample13Beat11_sliderReleased();
+    void on_dSample13Beat10_sliderReleased();
+    void on_dSample13Beat9_sliderReleased();
+    void on_dSample13Beat8_sliderReleased();
+    void on_dSample13Beat7_sliderReleased();
+    void on_dSample13Beat6_sliderReleased();
+    void on_dSample13Beat5_sliderReleased();
+    void on_dSample13Beat4_sliderReleased();
+    void on_dSample13Beat3_sliderReleased();
+    void on_dSample13Beat2_sliderReleased();
+    void on_dSample13Beat1_sliderReleased();
+    void on_dSample12Beat16_sliderReleased();
+    void on_dSample12Beat15_sliderReleased();
+    void on_dSample12Beat14_sliderReleased();
+    void on_dSample12Beat13_sliderReleased();
+    void on_dSample12Beat12_sliderReleased();
+    void on_dSample12Beat11_sliderReleased();
+    void on_dSample12Beat10_sliderReleased();
+    void on_dSample12Beat9_sliderReleased();
+    void on_dSample12Beat8_sliderReleased();
+    void on_dSample12Beat7_sliderReleased();
+    void on_dSample12Beat6_sliderReleased();
+    void on_dSample12Beat5_sliderReleased();
+    void on_dSample12Beat4_sliderReleased();
+    void on_dSample12Beat3_sliderReleased();
+    void on_dSample12Beat2_sliderReleased();
+    void on_dSample12Beat1_sliderReleased();
+    void on_dSample11Beat16_sliderReleased();
+    void on_dSample11Beat15_sliderReleased();
+    void on_dSample11Beat14_sliderReleased();
+    void on_dSample11Beat13_sliderReleased();
+    void on_dSample11Beat12_sliderReleased();
+    void on_dSample11Beat11_sliderReleased();
+    void on_dSample11Beat10_sliderReleased();
+    void on_dSample11Beat9_sliderReleased();
+    void on_dSample11Beat8_sliderReleased();
+    void on_dSample11Beat7_sliderReleased();
+    void on_dSample11Beat6_sliderReleased();
+    void on_dSample11Beat5_sliderReleased();
+    void on_dSample11Beat4_sliderReleased();
+    void on_dSample11Beat3_sliderReleased();
+    void on_dSample11Beat2_sliderReleased();
+    void on_dSample11Beat1_sliderReleased();
+    void on_dSample10Beat16_sliderReleased();
+    void on_dSample10Beat15_sliderReleased();
+    void on_dSample10Beat14_sliderReleased();
+    void on_dSample10Beat13_sliderReleased();
+    void on_dSample10Beat12_sliderReleased();
+    void on_dSample10Beat11_sliderReleased();
+    void on_dSample10Beat10_sliderReleased();
+    void on_dSample10Beat9_sliderReleased();
+    void on_dSample10Beat8_sliderReleased();
+    void on_dSample10Beat7_sliderReleased();
+    void on_dSample10Beat6_sliderReleased();
+    void on_dSample10Beat5_sliderReleased();
+    void on_dSample10Beat4_sliderReleased();
+    void on_dSample10Beat3_sliderReleased();
+    void on_dSample10Beat2_sliderReleased();
+    void on_dSample10Beat1_sliderReleased();
+    void on_dSample9Beat16_sliderReleased();
+    void on_dSample9Beat15_sliderReleased();
+    void on_dSample9Beat14_sliderReleased();
+    void on_dSample9Beat13_sliderReleased();
+    void on_dSample9Beat12_sliderReleased();
+    void on_dSample9Beat11_sliderReleased();
+    void on_dSample9Beat10_sliderReleased();
+    void on_dSample9Beat9_sliderReleased();
+    void on_dSample9Beat8_sliderReleased();
+    void on_dSample9Beat7_sliderReleased();
+    void on_dSample9Beat6_sliderReleased();
+    void on_dSample9Beat5_sliderReleased();
+    void on_dSample9Beat4_sliderReleased();
+    void on_dSample9Beat3_sliderReleased();
+    void on_dSample9Beat2_sliderReleased();
+    void on_dSample9Beat1_sliderReleased();
+    void on_dSample8Beat16_sliderReleased();
+    void on_dSample8Beat15_sliderReleased();
+    void on_dSample8Beat14_sliderReleased();
+    void on_dSample8Beat13_sliderReleased();
+    void on_dSample8Beat12_sliderReleased();
+    void on_dSample8Beat11_sliderReleased();
+    void on_dSample8Beat10_sliderReleased();
+    void on_dSample8Beat9_sliderReleased();
+    void on_dSample8Beat8_sliderReleased();
+    void on_dSample8Beat7_sliderReleased();
+    void on_dSample8Beat6_sliderReleased();
+    void on_dSample8Beat5_sliderReleased();
+    void on_dSample8Beat4_sliderReleased();
+    void on_dSample8Beat3_sliderReleased();
+    void on_dSample8Beat2_sliderReleased();
+    void on_dSample8Beat1_sliderReleased();
+    void on_dSample7Beat16_sliderReleased();
+    void on_dSample7Beat15_sliderReleased();
+    void on_dSample7Beat14_sliderReleased();
+    void on_dSample7Beat13_sliderReleased();
+    void on_dSample7Beat12_sliderReleased();
+    void on_dSample7Beat11_sliderReleased();
+    void on_dSample7Beat10_sliderReleased();
+    void on_dSample7Beat9_sliderReleased();
+    void on_dSample7Beat8_sliderReleased();
+    void on_dSample7Beat7_sliderReleased();
+    void on_dSample7Beat6_sliderReleased();
+    void on_dSample7Beat5_sliderReleased();
+    void on_dSample7Beat4_sliderReleased();
+    void on_dSample7Beat3_sliderReleased();
+    void on_dSample7Beat2_sliderReleased();
+    void on_dSample7Beat1_sliderReleased();
+    void on_dSample6Beat16_sliderReleased();
+    void on_dSample6Beat15_sliderReleased();
+    void on_dSample6Beat14_sliderReleased();
+    void on_dSample6Beat13_sliderReleased();
+    void on_dSample6Beat12_sliderReleased();
+    void on_dSample6Beat11_sliderReleased();
+    void on_dSample6Beat10_sliderReleased();
+    void on_dSample6Beat9_sliderReleased();
+    void on_dSample6Beat8_sliderReleased();
+    void on_dSample6Beat7_sliderReleased();
+    void on_dSample6Beat6_sliderReleased();
+    void on_dSample6Beat5_sliderReleased();
+    void on_dSample6Beat4_sliderReleased();
+    void on_dSample6Beat3_sliderReleased();
+    void on_dSample6Beat2_sliderReleased();
+    void on_dSample6Beat1_sliderReleased();
+    void on_dSample5Beat16_sliderReleased();
+    void on_dSample5Beat15_sliderReleased();
+    void on_dSample5Beat14_sliderReleased();
+    void on_dSample5Beat13_sliderReleased();
+    void on_dSample5Beat12_sliderReleased();
+    void on_dSample5Beat11_sliderReleased();
+    void on_dSample5Beat10_sliderReleased();
+    void on_dSample5Beat9_sliderReleased();
+    void on_dSample5Beat8_sliderReleased();
+    void on_dSample5Beat7_sliderReleased();
+    void on_dSample5Beat6_sliderReleased();
+    void on_dSample5Beat5_sliderReleased();
+    void on_dSample5Beat4_sliderReleased();
+    void on_dSample5Beat3_sliderReleased();
+    void on_dSample5Beat2_sliderReleased();
+    void on_dSample5Beat1_sliderReleased();
+    void on_dSample4Beat16_sliderReleased();
+    void on_dSample4Beat15_sliderReleased();
+    void on_dSample4Beat14_sliderReleased();
+    void on_dSample4Beat13_sliderReleased();
+    void on_dSample4Beat12_sliderReleased();
+    void on_dSample4Beat11_sliderReleased();
+    void on_dSample4Beat10_sliderReleased();
+    void on_dSample4Beat9_sliderReleased();
+    void on_dSample4Beat8_sliderReleased();
+    void on_dSample4Beat7_sliderReleased();
+    void on_dSample4Beat6_sliderReleased();
+    void on_dSample4Beat5_sliderReleased();
+    void on_dSample4Beat4_sliderReleased();
+    void on_dSample4Beat3_sliderReleased();
+    void on_dSample4Beat2_sliderReleased();
+    void on_dSample4Beat1_sliderReleased();
+    void on_dSample3Beat16_sliderReleased();
+    void on_dSample3Beat15_sliderReleased();
+    void on_dSample3Beat14_sliderReleased();
+    void on_dSample3Beat13_sliderReleased();
+    void on_dSample3Beat12_sliderReleased();
+    void on_dSample3Beat11_sliderReleased();
+    void on_dSample3Beat10_sliderReleased();
+    void on_dSample3Beat9_sliderReleased();
+    void on_dSample3Beat8_sliderReleased();
+    void on_dSample3Beat7_sliderReleased();
+    void on_dSample3Beat6_sliderReleased();
+    void on_dSample3Beat5_sliderReleased();
+    void on_dSample3Beat4_sliderReleased();
+    void on_dSample3Beat3_sliderReleased();
+    void on_dSample3Beat2_sliderReleased();
+    void on_dSample3Beat1_sliderReleased();
+    void on_dSample2Beat16_sliderReleased();
+    void on_dSample2Beat15_sliderReleased();
+    void on_dSample2Beat14_sliderReleased();
+    void on_dSample2Beat13_sliderReleased();
+    void on_dSample2Beat12_sliderReleased();
+    void on_dSample2Beat11_sliderReleased();
+    void on_dSample2Beat10_sliderReleased();
+    void on_dSample2Beat9_sliderReleased();
+    void on_dSample2Beat8_sliderReleased();
+    void on_dSample2Beat7_sliderReleased();
+    void on_dSample2Beat6_sliderReleased();
+    void on_dSample2Beat5_sliderReleased();
+    void on_dSample2Beat4_sliderReleased();
+    void on_dSample2Beat3_sliderReleased();
+    void on_dSample2Beat2_sliderReleased();
+    void on_dSample2Beat1_sliderReleased();
+    void on_dSample1Beat16_sliderReleased();
+    void on_dSample1Beat15_sliderReleased();
+    void on_dSample1Beat14_sliderReleased();
+    void on_dSample1Beat13_sliderReleased();
+    void on_dSample1Beat12_sliderReleased();
+    void on_dSample1Beat11_sliderReleased();
+    void on_dSample1Beat10_sliderReleased();
+    void on_dSample1Beat9_sliderReleased();
+    void on_dSample1Beat8_sliderReleased();
+    void on_dSample1Beat7_sliderReleased();
+    void on_dSample1Beat6_sliderReleased();
+    void on_dSample1Beat5_sliderReleased();
+    void on_dSample1Beat4_sliderReleased();
+    void on_dSample1Beat3_sliderReleased();
+    void on_dSample1Beat2_sliderReleased();
+    void on_dSample1Beat1_valueChanged(int value);
+    void on_dSample1Beat1_sliderReleased();
+
+};
+
+#endif // SAMPLER_H
